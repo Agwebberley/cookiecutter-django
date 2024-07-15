@@ -29,7 +29,7 @@ uvicorn-worker==0.2.0  # https://github.com/Kludex/uvicorn-worker
 
 # Django
 # ------------------------------------------------------------------------------
-django==5.0.7  # pyup: < 5.1  # https://www.djangoproject.com/
+django=>4.2.14  # pyup: < 5.0  # https://www.djangoproject.com/
 django-environ==0.11.2  # https://github.com/joke2k/django-environ
 django-model-utils==4.5.1  # https://github.com/jazzband/django-model-utils
 django-allauth[mfa]==64.0.0  # https://github.com/pennersr/django-allauth
@@ -49,3 +49,5 @@ drf-spectacular==0.27.2  # https://github.com/tfranzel/drf-spectacular
 {%- if cookiecutter.frontend_pipeline == 'Webpack' %}
 django-webpack-loader==3.1.0  # https://github.com/django-webpack/django-webpack-loader
 {%- endif %}
+
+Meteor @ git+https://github.com/Agwebberley/Meteor.git@master

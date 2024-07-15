@@ -98,6 +98,7 @@ THIRD_PARTY_APPS = [
 {%- if cookiecutter.frontend_pipeline == 'Webpack' %}
     "webpack_loader",
 {%- endif %}
+    "Meteor",
 ]
 
 LOCAL_APPS = [
