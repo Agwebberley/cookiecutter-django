@@ -51,3 +51,4 @@ django-webpack-loader==3.1.0  # https://github.com/django-webpack/django-webpack
 {%- endif %}
 
 FRAME @ git+https://github.com/Agwebberley/FRAME.git@main
+django-htmx==1.18.0
