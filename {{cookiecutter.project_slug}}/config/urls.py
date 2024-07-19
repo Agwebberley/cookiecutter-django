@@ -31,6 +31,7 @@ urlpatterns = [
     # ...
     # Media files
     *static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT),
+    path("", include("frame.urls")),
 ]
 {%- if cookiecutter.use_async == 'y' %}
 if settings.DEBUG:
