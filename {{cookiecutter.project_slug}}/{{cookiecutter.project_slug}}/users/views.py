@@ -5,11 +5,12 @@ from django.utils.translation import gettext_lazy as _
 from django.views.generic import DetailView
 from django.views.generic import RedirectView
 from django.views.generic import UpdateView
+from frame.base_views import NavigationMixin
 
 from {{ cookiecutter.project_slug }}.users.models import User
 
 
-class UserDetailView(LoginRequiredMixin, DetailView):
+class UserDetailView(LoginRequiredMixin, NavigationMixin, DetailView):
     model = User
     {%- if cookiecutter.username_type == "email" %}
     slug_field = "id"
@@ -23,7 +24,7 @@ class UserDetailView(LoginRequiredMixin, DetailView):
 user_detail_view = UserDetailView.as_view()
 
 
-class UserUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+class UserUpdateView(LoginRequiredMixin, SuccessMessageMixin, NavigationMixin, UpdateView):
     model = User
     fields = ["name"]
     success_message = _("Information successfully updated")
@@ -40,7 +41,7 @@ class UserUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
 user_update_view = UserUpdateView.as_view()
 
 
-class UserRedirectView(LoginRequiredMixin, RedirectView):
+class UserRedirectView(LoginRequiredMixin, NavigationMixin, RedirectView):
     permanent = False
 
     def get_redirect_url(self):

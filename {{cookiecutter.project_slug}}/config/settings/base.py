@@ -4,6 +4,7 @@
 from pathlib import Path
 
 import environ
+import frame
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # {{ cookiecutter.project_slug }}/
@@ -214,6 +215,7 @@ TEMPLATES = [
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
                 "{{cookiecutter.project_slug}}.users.context_processors.allauth_settings",
+                "frame.context_processors.cfg_version",
             ],
         },
     },
@@ -394,3 +396,5 @@ WEBPACK_LOADER = {
 # Your stuff...
 # ------------------------------------------------------------------------------
 AWS_REGION = 'us-west-2'
+FRAME_VERSION = frame.__version__
+APP_VERSION = "0.1.0"
