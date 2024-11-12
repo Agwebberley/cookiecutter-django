@@ -11,7 +11,7 @@ mkdir -p .cache/docker
 cd .cache/docker
 
 # create the project using the default settings in cookiecutter.json
-cookiecutter ../../ --no-input --overwrite-if-exists use_docker=y "$@"
+uv run cookiecutter ../../ --no-input --overwrite-if-exists use_docker=y "$@"
 cd my_awesome_project
 
 # make sure all images build
@@ -24,7 +24,7 @@ docker compose -f docker-compose.local.yml run django mypy my_awesome_project
 docker compose -f docker-compose.local.yml run django pytest
 
 # return non-zero status code if there are migrations that have not been created
-docker compose -f docker-compose.local.yml run django python manage.py makemigrations --dry-run --check || { echo "ERROR: there were changes in the models, but migration listed above have not been created and are not saved in version control"; exit 1; }
+docker compose -f docker-compose.local.yml run django python manage.py makemigrations --check || { echo "ERROR: there were changes in the models, but migration listed above have not been created and are not saved in version control"; exit 1; }
 
 # Test support for translations
 docker compose -f docker-compose.local.yml run django python manage.py makemessages --all
@@ -33,7 +33,6 @@ docker compose -f docker-compose.local.yml run django python manage.py makemessa
 docker compose -f docker-compose.local.yml run \
   -e DJANGO_SECRET_KEY="$(openssl rand -base64 64)" \
   -e REDIS_URL=redis://redis:6379/0 \
-  -e CELERY_BROKER_URL=redis://redis:6379/0 \
   -e DJANGO_AWS_ACCESS_KEY_ID=x \
   -e DJANGO_AWS_SECRET_ACCESS_KEY=x \
   -e DJANGO_AWS_STORAGE_BUCKET_NAME=x \

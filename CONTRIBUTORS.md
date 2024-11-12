@@ -209,6 +209,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Alex Kanavos</td>
+    <td>
+      <a href="https://github.com/alexkanavos">alexkanavos</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Alex Tsai</td>
     <td>
       <a href="https://github.com/caffodian">caffodian</a>
@@ -536,6 +543,13 @@ Listed in alphabetical order.
       <a href="https://github.com/cjauvin">cjauvin</a>
     </td>
     <td></td>
+  </tr>
+  <tr>
+    <td>Christian Jensen</td>
+    <td>
+      <a href="https://github.com/jensenbox">jensenbox</a>
+    </td>
+    <td>cjensen</td>
   </tr>
   <tr>
     <td>Christopher Clarke</td>
@@ -874,6 +888,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Francisco Navarro Morales </td>
+    <td>
+      <a href="https://github.com/spothound">spothound</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Freddy</td>
     <td>
       <a href="https://github.com/Hraesvelg">Hraesvelg</a>
@@ -1196,6 +1217,13 @@ Listed in alphabetical order.
     <td>cass_john</td>
   </tr>
   <tr>
+    <td>Johnny Metz</td>
+    <td>
+      <a href="https://github.com/johnnymetz">johnnymetz</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Jonathan Thompson</td>
     <td>
       <a href="https://github.com/nojanath">nojanath</a>
@@ -1290,6 +1318,13 @@ Listed in alphabetical order.
     <td>Kevin A. Stone</td>
     <td>
       <a href="https://github.com/"></a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Kevin Mills</td>
+    <td>
+      <a href="https://github.com/millsks">millsks</a>
     </td>
     <td></td>
   </tr>
@@ -1399,6 +1434,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>LJFP</td>
+    <td>
+      <a href="https://github.com/ljfp">ljfp</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Luis Nell</td>
     <td>
       <a href="https://github.com/originell">originell</a>
@@ -1451,6 +1493,20 @@ Listed in alphabetical order.
     <td>Marios Frixou</td>
     <td>
       <a href="https://github.com/frixou89">frixou89</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mariot Tsitoara</td>
+    <td>
+      <a href="https://github.com/mariot">mariot</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Marlon Castillo</td>
+    <td>
+      <a href="https://github.com/mcastle">mcastle</a>
     </td>
     <td></td>
   </tr>
@@ -1600,6 +1656,13 @@ Listed in alphabetical order.
       <a href="https://github.com/Mike97M">Mike97M</a>
     </td>
     <td></td>
+  </tr>
+  <tr>
+    <td>milvagox</td>
+    <td>
+      <a href="https://github.com/milvagox">milvagox</a>
+    </td>
+    <td>milvagox</td>
   </tr>
   <tr>
     <td>Min ho Kim</td>
@@ -1903,6 +1966,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>rxm7706</td>
+    <td>
+      <a href="https://github.com/rxm7706">rxm7706</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Ryan Fitch</td>
     <td>
       <a href="https://github.com/ryfi">ryfi</a>
@@ -2202,6 +2272,13 @@ Listed in alphabetical order.
       <a href="https://github.com/westurner">westurner</a>
     </td>
     <td>westurner</td>
+  </tr>
+  <tr>
+    <td>Will</td>
+    <td>
+      <a href="https://github.com/novucs">novucs</a>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td>Will Farley</td>
