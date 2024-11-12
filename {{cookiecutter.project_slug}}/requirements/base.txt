@@ -53,3 +53,5 @@ django-webpack-loader==3.1.1  # https://github.com/django-webpack/django-webpack
 FRAME @ git+https://github.com/Agwebberley/FRAME.git@main
 django-htmx>=1.18.0
 weasyprint>=63.0
+django-tailwind>=3.8.0
+crispy-tailwind[reload]>=1.0.0
