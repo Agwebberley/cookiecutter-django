@@ -351,3 +351,8 @@ vendors.js
 {{ cookiecutter.project_slug }}/static/webpack_bundles/
 webpack-stats.json
 {%- endif %}
+
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform.tfstate
+terraform/.terraform.lock.hcl
